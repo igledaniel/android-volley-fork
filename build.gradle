@@ -27,4 +27,9 @@ android {
             java.srcDirs      = ["tests/src"]
         }
     }
+
+    lintOptions {
+        warningsAsErrors true
+        abortOnError false
+    }
 }
